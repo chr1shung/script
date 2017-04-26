@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /home/chris/nfs/CUJU/kvm
+cd $PATH_OF_YOUR_CUJU/kvm
 lsmod | grep kvm
 sudo rmmod kvm_intel
 sudo rmmod kvm

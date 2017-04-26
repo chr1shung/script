@@ -1,5 +1,5 @@
 #i/bin/sh
-WORKSPACE=/home/chris/nfs/data
+WORKSPACE=$PATH_OF_YOUR_NFS_FOLDER
 
 sudo $WORKSPACE/reinsmodkvm.sh
 sudo $WORKSPACE/set-net2.sh
